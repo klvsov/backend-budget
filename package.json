@@ -4,7 +4,8 @@
   "description": "Simple fastify App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Vasyl Vodopianov <vasiliy.v@halo-lab.team>",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "boom": "^7.3.0",
     "fastify": "^2.13.1",
     "fastify-swagger": "^2.5.1",
+    "heroku": "^7.53.0",
     "mongoose": "^5.9.9",
     "nodemon": "^2.0.3"
   }
